@@ -24,6 +24,12 @@ Welcome to the body of your dataset site. Everything above this section is part 
 
 Here is a quick overview of the template structure:
 
+<FlatUiTable
+  data={{
+    csv: '\n    Year,Temp Anomaly\n    1850,-0.418\n    2020,0.923\n    '
+  }}
+ />
+
 ![[Overview.png]]
 
 ## Structured data
