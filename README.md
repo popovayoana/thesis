@@ -1,5 +1,3 @@
-# thesis
-
 ---
 datapackage:
   title: Welcome to your template dataset page!
