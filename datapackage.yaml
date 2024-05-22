@@ -1,0 +1,23 @@
+name: frequency-by-country
+title: Use of Blockchain Social Media by Country
+licenses:
+  - name: ODC-PDDL-1.0
+    path: http://opendatacommons.org/licenses/pddl/
+    title: Open Data Commons Public Domain Dedication and License v1.0
+resources:
+  - name: frequency
+    path: data/frequency-country.csv
+    schema:
+      fields:
+        - name: country
+          type: string
+        - name: country_code
+          type: number
+        - name: frequency_b
+          type: string
+        - name: frequency_b_code
+          type: number
+        - name: activity_level
+          type: string
+        - name: activity_level_code
+          type: number
