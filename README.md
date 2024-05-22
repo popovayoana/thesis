@@ -1,22 +1,4 @@
----
-datapackage:
-  title: Can I publish some survey data
-  description: Why is it so freaking hard to publish a dataset with Datahub Cloud?!
-  created: 2024-05-22
-  updated: 2024-05-22
-  licenses:
-  - path: http://opendatacommons.org/licenses/pddl/
-    title: Some survey data
-  sources:
-  - path: http://link.to/data/source
-    title: Link to data source
-  resources:
-  - name: c02-per-decade
-    title: C02 PPM per decade
-    description: C02 PPM per decade
-    lastModified: 2024-01-15
-    path: frequency-country.csv
----
+
 
 Welcome to the body of your dataset site. Everything above this section is part of the Data package front matter. 
 
