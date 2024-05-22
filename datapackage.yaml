@@ -5,7 +5,7 @@ licenses:
     path: http://opendatacommons.org/licenses/pddl/
     title: Open Data Commons Public Domain Dedication and License v1.0
 resources:
-  - name: frequency
+  - name: frequency by country
     path: data/frequency-country.csv
     schema:
       fields:
@@ -21,3 +21,11 @@ resources:
           type: string
         - name: activity_level_code
           type: number
+  - name: frequency by age
+    path: data/frequency-age.csv
+    schema:
+      fields:
+        - name: age
+          type: number
+        - name: frequency
+          type: string
