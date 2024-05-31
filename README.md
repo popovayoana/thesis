@@ -47,7 +47,7 @@ const ExampleCode = () => {
 
 <PlotlyBarChart
   data={{
-    url: '../data/frequency-country.csv'
+    url: 'data/frequency-country.csv'
   }}
   title="Correlation between country and frequency"
   xAxis="country_code"
