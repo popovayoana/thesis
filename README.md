@@ -47,10 +47,10 @@ const ExampleCode = () => {
 
 <PlotlyBarChart
   data={{
-    url: '../data/frequency-age.csv'
+    url: '../data/frequency-country.csv'
   }}
-  title="Correlation between age and frequency"
-  xAxis="Age"
-  yAxis="Frequency"
+  title="Correlation between country and frequency"
+  xAxis="country_code"
+  yAxis="frequency_b_code"
 />
 
