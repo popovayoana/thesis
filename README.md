@@ -6,12 +6,6 @@ Welcome to the body of your dataset site. Everything above this section is part 
 
 Here is a quick overview of the template structure:
 
-<FlatUiTable
-  data={{
-    csv: '\n    Year,Temp Anomaly\n    1850,-0.418\n    2020,0.923\n    '
-  }}
- />
-
 ![[Overview.png]]
 
 ## Structured data
@@ -48,4 +42,15 @@ const ExampleCode = () => {
 ```
 
 ## To read more about how this works, refer to the [docs page](docs).
+
+## Data Analysis
+
+<PlotlyBarChart
+  data={{
+    url: '../data/frequency-age.csv'
+  }}
+  title="Correlation between age and frequency"
+  xAxis="Age"
+  yAxis="Frequency"
+/>
 
